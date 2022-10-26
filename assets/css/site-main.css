@@ -1,0 +1,56 @@
+.site-main__first {
+  padding: 23px 0 28px;
+
+  transition: all 0.3s;
+  background-color: var(--color-mineShaft);
+}
+
+@media(min-width: 1440px) {
+  .site-main__first {
+    padding: 70px 0;
+  }
+}
+
+.site-main__features {
+  padding-top: 42px;
+}
+
+.site-main__contacts {
+  padding: 10px 0 14px;
+
+  background-color: var(--color-mineShaft);
+  transition: all 0.3s;
+}
+
+@media(min-width: 800px) {
+  .site-main__contacts {
+    padding: 32px 0;
+  }
+}
+
+.site-main__map {
+  height: 424px;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--color-wildSand);
+
+  transition: all 0.3s;
+}
+
+@media(min-width: 1440px) {
+  .site-main__map {
+    height: 445px;
+  }
+}
+
+.site-main__map-iframe {
+  width: 100%;
+}
+
+@media(min-width: 1440px) {
+  .site-main__map-iframe {
+    height: 445px;
+  }
+}
